@@ -1,0 +1,45 @@
+body{ 
+	color:#ffffff;/*color permet de changer la couleur denotre texte. On pourra utiliser le nom anglis d'une couleur, son code hexadécimal #, ou encore le code RGB.*/
+	background-color:#000000;/*background-olor permet de changer le couleur de fond de nos éléments*/
+	font-family:cursive;/*font-family permet de changer la police de notre site, c'est à dire le style d'écriture. On peut choisir plusieurs valeurs entre sérif, sans-sérif, cursive et monospace*/
+	font-size:15px;/*font-size permet demodifier la taille des lettres*/
+	line-height:20px;/*line-height permet de modifier l'espace qu'il y a entre 2 lignes de texte*/
+	text-align:center;/*text-align permet de changer la position du texte en le mettant au cente avec la valeur center, à gauche avec left, ou à droite avec la valeur right*/
+}
+
+h1{
+	color:#ffffff;
+	font-family:sans-serif;
+	font-variant:small-caps;/*font-variant, avec pour valeur small-caps, permet de transformertoute les lettres en petites majuscules */
+	letter-spacing:1px;/* pour pouvoir augmenter l'espace entre les lettres, on utilise la propriété letter-spacing*/ 
+}
+
+h2{
+	color:#ffffff; 
+	font-weight:lighter;/*grâce à font-weight, il est possible de modifier l'épaisseur des lettres, lighter pour les affiner, et bolder pour les appaissir*/
+}
+
+a{
+	color:#fbffd9;
+	text-decoration:none;/*le code texte-decoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens*/
+}
+
+a:hover{ 
+	color:pink;
+}
+
+div{
+	border:solid;
+	border-color:pink;
+	margin:60px 150px;
+	border-radius:10px;
+	box-shadow:20px 20px 20px pink; 
+}
+
+iframe{
+	border-radius:10px;
+}
+
+img{
+	border-radius:10px;
+}
